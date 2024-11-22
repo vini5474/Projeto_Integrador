@@ -34,11 +34,12 @@ footer{
     padding: 50px;
 }
 .card{
-    background-color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
     width: 180px;
-    height: 260px;
+    height: 160px;
     border-radius: 12px;
-    box-shadow: 4px 4px 12px,
+    box-shadow: 4px 4px 12px;
 }
 .card img{
     width: 100%;
@@ -71,8 +72,17 @@ footer{
     font-weight: bold;
     border-radius: 120px;
 }
-
-
+.navegar{
+    text-align: center;
+    background-color: rgb(0, 255, 170);
+    color: white;
+    padding: 20px;
+    font-size: large;
+    justify-content: space-between;
+}
+.card{
+    justify-content: space-between;
+}
 
 
 /* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
